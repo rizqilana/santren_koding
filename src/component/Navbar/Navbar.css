@@ -1,0 +1,91 @@
+.Font1{
+position: absolute;
+width: 71px;
+height: 30px;
+left: 640px;
+top:18px;
+font-style: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 17px;
+color: #615E5E;
+}
+
+.Font2{
+position: absolute;
+height: 1px;
+left: 785px;
+top:22px;
+font-style: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 17px;
+color: #615E5E;
+}
+
+.Font3{
+position: absolute;
+width: 76px;
+height: 25px;
+left: 915px;
+top:21px;
+font-style: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 17px;
+color: #615E5E;
+}
+
+.Font4{
+position: absolute;
+height: 25px;
+left: 1015px;
+top:21px;
+font-style:'Montserrat';
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 17px;
+color: #615E5E;
+}
+
+.Font5{
+position: absolute;
+width: 39px;
+height: 25px;
+left: 1175px;
+top:21px;
+font-style: Open Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 17px;
+color: #615E5E;
+
+}
+
+.FontColor{
+position: absolute;
+width: 246px;
+height: 25px;
+left: 100px;
+top:15px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 30px;
+color:#6ECD7B;
+}
+
+.icon{
+    position: absolute;
+left: 2.99%;
+right: 92.14%;
+top: 5px;
+bottom: 98.05%;
+}
+

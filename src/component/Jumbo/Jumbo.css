@@ -1,0 +1,57 @@
+.display{
+position: absolute;
+width: 409px;
+height: 80px;
+left: 40px;
+top: 210px;
+font-family: 'Tangerine';
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 50px;
+color: #615E5E;
+}
+
+.title{
+position: absolute;
+width: 350px;
+height: 98px;
+left: 40px;
+top: 280px;
+
+font-family: 'Montserra';
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+
+color: #615E5E;
+
+}
+
+.button{
+    position: absolute;
+width: 200px;
+height: 56px;
+left: 40px;
+top: 410px;
+
+background: #6ECD7B;
+box-shadow: 0px 30px 40px rgba(110, 205, 123, 0.2);
+border-radius: 7px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 20px;
+
+color: #FFFFFF;
+}
+
+.img{
+    position: absolute;
+width: 855px;
+height: 700px;
+left: 500px;
+top: 10px;
+}
