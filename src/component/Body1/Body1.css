@@ -1,17 +1,19 @@
-.Title{
+.Titlele{
     position: absolute;
-left: 15.19%;
-right: 15.19%;
-top: 21.22%;
-bottom: 75.12%;
+    width: 780px;
+    left: 20%;
+    right: 15.19%;
+    top: 160%;
+    bottom: 75.12%;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #615E5E;    
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: normal;
-line-height: 40px;
-font-size: 30px;
-text-align: center;
-letter-spacing: 0.05em;
-
-color: #615E5E;
 }

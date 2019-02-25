@@ -8,6 +8,7 @@ import {
   NavLink,
    } from 'reactstrap';
    import './Navbar.css'
+   
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -26,27 +27,22 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
-        <Navbar light expand="md">
+        <Navbar light expand="md" className="Nav">
         <img className="icon" src={require('./Logo Santren + Circle.svg')} />
           <Navbar className="FontColor">Santren Koding</Navbar>
           <Nav className="ml-auto" navbar>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
               <NavItem className="icon">
-                <NavLink className="Font1">Nasihat</NavLink>
+                <NavLink className="Font1">Kajian Koding</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="Font2">Fisi & Misi</NavLink>
+                <NavLink className="Font2">Mondok Koding</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="Font3">Syarat</NavLink>
+                <NavLink className="Font3">Kitab Koding</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink className="Font4">Foto Kegiatan</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink className="Font5">Kontak</NavLink>
-              </NavItem>
+              
               </Collapse>
            </Nav>
         </Navbar>

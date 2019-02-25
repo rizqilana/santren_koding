@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import './Jumbo.css'
+import './Jumbo.css';
+import React from 'react';
 
-class Jumbo extends Component {
-    render() {
-      return (
-         <div>
+
+const Jumbo = () => {
+  return (
+      <div className="Jumbo">
             <h1  className="display">Ngoding tur Ngaji</h1>
                <h5 className="title">
                     Kalo cuma bisa ngoding mungkin udah
@@ -15,12 +15,8 @@ class Jumbo extends Component {
                 <button className="button">Aku Ikut !</button>
                 <img className="img" src={require('./Ilustrasi ngaji + ngoding.svg')}/>
            </div>
-
-          
-    );
-
-  }
-}
+  );
+};
 
 export default Jumbo;
 
