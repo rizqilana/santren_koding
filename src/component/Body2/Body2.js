@@ -8,16 +8,16 @@ const Body2 = () => {
      <Row>
          <img className="Imgg" src={require('./Ellipse.png')}/>
          <Col sm="6">
-        <Card className="Card">
-        <CardBody>
+        
+        <CardBody  className="Card">
         <CardTitle className="VISI">VISI</CardTitle>
         <CardText className="Title">Mencetak santri yang berakhlak dan berkarakter di bidang teknologi informasi yang siap bersaing di kanca global</CardText>  
       </CardBody>
-         </Card>
+        
     </Col>
    
-      <Card className="Card2">
-      <CardBody>
+     
+      <CardBody  className="Card2">
       <CardTitle className="VISI">MISI</CardTitle>
       <CardText className="title">
       <p>Menjadi pelopor pendidikan non formal dalam sektor Teknologi Informasi di Indonesia</p>
@@ -26,7 +26,7 @@ const Body2 = () => {
       <p>Mendorong Inovasi di bidang Teknologi Informasi</p>
       </CardText>  
     </CardBody>
-      </Card>
+     
     </Row>
     );
   };
