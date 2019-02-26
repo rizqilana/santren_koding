@@ -5,9 +5,9 @@ height: 400px;
 left: 290px;
 top: 1500px;
 
-background: #FFFFFF;
-box-shadow: 0px 0px 80px rgba(28, 58, 67, 0.07);
-border-radius: 10px;
+background: white;
+box-shadow: 0px 0px 60px rgba(28, 58, 67, 0.07);
+
 
 }
 
@@ -18,8 +18,8 @@ border-radius: 10px;
     left: 50px;
     top: 1500px;
     
-    background: #FFFFFF;
-    box-shadow: 0px 0px 80px rgba(28, 58, 67, 0.07);
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 60px rgba(28, 58, 67, 0.07);
     border-radius: 10px; 
 }
 
@@ -35,7 +35,6 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 font-size: 40px;
-
 color: #6ECD7B;
 
 }
@@ -56,4 +55,29 @@ text-align: center;
 
 color: #615E5E;
 
+}
+
+.Imgg{
+    position: absolute;
+width: 991.09px;
+height: 560.47px;
+left: 180px;
+top: 1470px;
+}
+
+.title{
+    position: absolute;
+    width: 272px;
+    height: 295px;
+    left: 50px;
+    top: 100px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    
+   
 }

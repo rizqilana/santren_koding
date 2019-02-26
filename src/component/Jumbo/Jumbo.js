@@ -6,7 +6,7 @@ const Jumbo = () => {
   return (
       <div className="Jumbo">
             <h1  className="display">Ngoding tur Ngaji</h1>
-               <h5 className="title">
+               <h5 className="title1">
                     Kalo cuma bisa ngoding mungkin udah
                     banyak, tapi ini bisa ngaji juga loh. Lulus
                     modok ngodingnya jago, apalagi ngajinya.
