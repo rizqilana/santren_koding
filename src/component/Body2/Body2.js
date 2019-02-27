@@ -8,12 +8,12 @@ const Body2 = () => {
      <Row>
          <img className="Imgg" src={require('./Ellipse.png')}/>
          <Col sm="6">
-        
         <CardBody  className="Card">
         <CardTitle className="VISI">VISI</CardTitle>
         <CardText className="Title">Mencetak santri yang berakhlak dan berkarakter di bidang teknologi informasi yang siap bersaing di kanca global</CardText>  
       </CardBody>
-        
+      <img className="Imgg2" src={require('./“-1.png')}/>
+      <img className="Imgg1" src={require('./“.png')}/>
     </Col>
    
      

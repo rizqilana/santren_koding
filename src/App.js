@@ -4,6 +4,7 @@ import Navbar from './component/Navbar/Navbar';
 import Jumbo from './component/Jumbo/Jumbo';
 import Body1 from './component/Body1/Body1';
 import Body2 from './component/Body2/Body2';
+import Body3 from './component/Body3/Body3';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
      <Jumbo/>
     <Body1/>
     <Body2/>
+    <Body3/>
       </div>
     );
   }
