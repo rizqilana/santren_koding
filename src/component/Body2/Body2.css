@@ -1,100 +1,111 @@
-.Card{
-    position: absolute;
-width: 350px;
-height: 400px;
-left: 290px;
-top: 1500px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Tangerine:700');
 
-background: white;
-box-shadow: 0px 0px 60px rgba(28, 58, 67, 0.07);
-border-radius: 0px;
+.Card {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  left: 290px;
+  top: 1500px;
 
+  background: white;
+  box-shadow: 0px 0px 60px rgba(28, 58, 67, 0.07);
+  border-radius: 0px;
 }
 
-.Card2{
-    position: absolute;
-    width: 350px;
-    height: 400px;
-    left: 700px;
-    top: 1575px;
-    
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 60px rgba(28, 58, 67, 0.07);
-    border-radius: 0px; 
+.Card2 {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  left: 700px;
+  top: 1575px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 0px 60px rgba(28, 58, 67, 0.07);
+  border-radius: 0px;
 }
 
-.VISI{
-    position: absolute;
-width: 100px;
-height: 49px;
-left: 130px;
-top: 35px;
+.VISI {
+  position: absolute;
+  width: 100px;
+  height: 49px;
+  left: 130px;
+  top: 30px;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 40px;
-color: #6ECD7B;
-
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 40px;
+  color: #6ecd7b;
 }
 
-.Title{
-    position: absolute;
-width: 185px;
-height: 222px;
-left: 80px;
-top: 135px;
+.MISI {
+  position: absolute;
+  width: 100px;
+  height: 49px;
+  left: 130px;
+  top: 25px;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-text-align: center;
-
-color: #615E5E;
-
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 40px;
+  color: #6ecd7b;
 }
 
-.Imgg{
-    position: absolute;
-width: 991.09px;
-height: 560.47px;
-left: 180px;
-top: 1490px;
+.Title {
+  position: absolute;
+  width: 230px;
+  height: 222px;
+  left: 60px;
+  top: 120px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+
+  color: #615e5e;
 }
 
-.title{
-    position: absolute;
-    width: 272px;
-    height: 295px;
-    left: 50px;
-    top: 100px;
-    
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 15px;
-    letter-spacing: 0.05em;
-    
-   
+.Imgg {
+  position: absolute;
+  width: 991.09px;
+  height: 560.47px;
+  left: 180px;
+  top: 1490px;
 }
 
-.Imgg1{
-    position: absolute;
-width: 34px;
-height: 26px;
-left: 335px;
-top: 1620px;
+.title {
+  position: absolute;
+  width: 272px;
+  height: 295px;
+  left: 50px;
+  top: 90px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 14px;
+  letter-spacing: 0.05em;
 }
 
-.Imgg2{
-    position: absolute;
-width: 34px;
-height: 26px;
-left: 538px;
-top: 1825px;
+.Imgg1 {
+  position: absolute;
+  width: 34px;
+  height: 26px;
+  left: 335px;
+  top: 1620px;
+}
 
+.Imgg2 {
+  position: absolute;
+  width: 34px;
+  height: 26px;
+  left: 538px;
+  top: 1825px;
 }

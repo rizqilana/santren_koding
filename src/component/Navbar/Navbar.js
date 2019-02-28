@@ -42,7 +42,6 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink className="Font3">Kitab Koding</NavLink>
               </NavItem>
-              
               </Collapse>
            </Nav>
         </Navbar>

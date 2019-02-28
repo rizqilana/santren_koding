@@ -1,64 +1,62 @@
-.display{
-position: absolute;
-width: 409px;
-height: 80px;
-left: 40px;
-top: 210px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800|Tangerine:700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Tangerine');
 
-font-family: 'Tangerine';
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 50px;
-color: #615E5E;
+.titLe.card-title {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  left: 40px;
+  top: 200px;
+  font-family: 'Tangerine', cursive;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 70px;
+  font-weight: 700;
+  color: #615e5e;
 }
 
-.title1{
-position: absolute;
-width: 350px;
-height: 98px;
-left: 40px;
-top: 280px;
-
-font-family: 'Montserra';
-font-style: normal;
-font-weight: normal;
-line-height: normal;
-font-size: 20px;
-
-color: #615E5E;
-
+.subtitle.card-text {
+  position: absolute;
+  width: 450px;
+  height: 98px;
+  left: 40px;
+  top: 280px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  color: #615e5e;
 }
 
-.button{
-    position: absolute;
-width: 200px;
-height: 56px;
-left: 40px;
-top: 410px;
-
-background: #6ECD7B;
-box-shadow: 0px 30px 80px rgba(110, 205, 123, 0.2);
-border-radius: 7px;
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 20px;
-
-color: #FFFFFF;
+.button {
+  position: absolute;
+  width: 200px;
+  height: 56px;
+  left: 40px;
+  top: 410px;
+  background: #6ecd7b;
+  box-shadow: 0px 30px 80px rgba(110, 205, 123, 0.2);
+  border-radius: 7px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  color: #ffffff;
 }
 
-.img{
-    position: absolute;
-width: 855px;
-height: 700px;
-left: 500px;
-top: 10px;
+.img {
+  position: absolute;
+  width: 855px;
+  height: 700px;
+  left: 500px;
+  top: 10px;
 }
 
-.jumbo{
-    width: 100%;
-    height: 650px;
-    background-color: white;
+.jumbo {
+  width: 100%;
+  height: 650px;
+  background-color: white;
 }
