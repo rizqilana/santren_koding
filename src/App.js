@@ -6,6 +6,7 @@ import Body1 from './component/Body1/Body1';
 import Body2 from './component/Body2/Body2';
 import Body3 from './component/Body3/Body3';
 import Body4 from './component/Body4/Body4';
+import { Route, Switch, Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -17,6 +18,10 @@ class App extends Component {
         <Body2 />
         <Body3 />
         <Body4 />
+
+        <Switch>
+          <Route path="/" exact component={Navbar} />
+        </Switch>
       </div>
     );
   }

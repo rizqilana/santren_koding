@@ -22,18 +22,24 @@ const Body2 = () => {
         <CardTitle className="MISI">MISI</CardTitle>
         <CardText className="title">
           <p>
+            <img className="rectangle" src={require('./uuu.png')} />
             Menjadi pelopor pendidikan non formal dalam sektor Teknologi
             Informasi di Indonesia
           </p>
           <p>
+            <img className="rectangle2" src={require('./uuu.png')} />
             Mendorong pertumbuhan tenaga ahli di bidang Teknologi Informasi yang
             memenuhi kebutuhan Industri
           </p>
           <p>
+            <img className="rectangle3" src={require('./uuu.png')} />
             Membangun Kolaborasi antarpihak yang berkomitmen dalam membentuk
             ekosistem Industri Kreatif di Indonesia
           </p>
-          <p>Mendorong Inovasi di bidang Teknologi Informasi</p>
+          <p>
+            <img className="rectangle4" src={require('./uuu.png')} />
+            Mendorong Inovasi di bidang Teknologi Informasi
+          </p>
         </CardText>
       </CardBody>
     </Row>

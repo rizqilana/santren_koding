@@ -78,12 +78,46 @@
   left: 180px;
   top: 1490px;
 }
+.rectangle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -20px;
+  top: 162px;
+
+  background: #4cc261;
+}
+.rectangle2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -20px;
+  top: 4px;
+
+  background: #4cc261;
+}
+
+.rectangle3 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -20px;
+  top: 75px;
+}
+.rectangle4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  left: -20px;
+  top: 252px;
+}
 
 .title {
   position: absolute;
+  text-align: justify;
   width: 272px;
   height: 295px;
-  left: 50px;
+  left: 45px;
   top: 90px;
 
   font-family: Montserrat;
@@ -98,14 +132,14 @@
   position: absolute;
   width: 34px;
   height: 26px;
-  left: 335px;
-  top: 1620px;
+  left: 330px;
+  top: 1616px;
 }
 
 .Imgg2 {
   position: absolute;
   width: 34px;
   height: 26px;
-  left: 538px;
-  top: 1825px;
+  left: 546px;
+  top: 1804px;
 }

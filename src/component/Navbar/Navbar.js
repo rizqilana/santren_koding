@@ -5,10 +5,9 @@ import {
   NavbarToggler,
   Nav,
   NavItem,
-  NavLink,
-   } from 'reactstrap';
-   import './Navbar.css'
-   
+  NavLink
+} from 'reactstrap';
+import './Navbar.css';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -28,22 +27,28 @@ export default class Example extends React.Component {
     return (
       <div>
         <Navbar light expand="md" className="Nav">
-        <img className="icon" src={require('./Logo Santren + Circle.svg')} />
+          <img className="icon" src={require('./Logo Santren + Circle.svg')} />
           <Navbar className="FontColor">Santren Koding</Navbar>
           <Nav className="ml-auto" navbar>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse isOpen={this.state.isOpen} navbar>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
               <NavItem className="icon">
-                <NavLink className="Font1">Kajian Koding</NavLink>
+                <NavLink className="Font1" href="">
+                  Kajian Koding
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="Font2">Mondok Koding</NavLink>
+                <NavLink className="Font2" href="">
+                  Mondok Koding
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="Font3">Kitab Koding</NavLink>
+                <NavLink className="Font3" href="">
+                  Kitab Koding
+                </NavLink>
               </NavItem>
-              </Collapse>
-           </Nav>
+            </Collapse>
+          </Nav>
         </Navbar>
       </div>
     );
