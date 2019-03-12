@@ -3,11 +3,10 @@
 .Titlele {
   position: absolute;
   width: 940px;
-  left: 15%;
+  left: 16%;
   right: 15.19%;
-  top: 171%;
+  top: 1010px;
   bottom: 75.12%;
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: normal;
@@ -15,7 +14,6 @@
   font-size: 30px;
   text-align: center;
   letter-spacing: 0.05em;
-
   color: #615e5e;
 }
 

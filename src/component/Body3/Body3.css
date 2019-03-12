@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Tangerine:700');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 .h1 {
   position: absolute;
   left: 540px;
   top: 2300px;
-  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 8000px;
   font-size: 50px;
@@ -22,7 +20,7 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 0.05em;
   color: #615e5e;
 }
@@ -62,15 +60,14 @@
 
 .ctitle {
   position: absolute;
-  width: 160px;
+  width: 130px;
   height: 85px;
-  left: 65px;
+  left: 60px;
   top: 115px;
-  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  font-size: 29px;
+  font-size: 23px;
   text-align: center;
   color: #615e5e;
 }
@@ -81,11 +78,10 @@
   height: 85px;
   left: 60px;
   top: 115px;
-  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  font-size: 30px;
+  font-size: 23px;
   text-align: center;
   color: #615e5e;
 }
@@ -94,18 +90,25 @@
   position: absolute;
   width: 140px;
   height: 111px;
-  left: 45px;
+  left: 55px;
   top: 115px;
-  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
   color: #615e5e;
 }
 
 .gambar {
+  position: absolute;
+  width: 122.02px;
+  height: 74.62px;
+  left: 63.65px;
+  top: 35.9px;
+}
+
+.gamba {
   position: absolute;
   width: 122.02px;
   height: 74.62px;
@@ -121,10 +124,26 @@
   top: 35.9px;
 }
 
+.gamba2 {
+  position: absolute;
+  width: 122.02px;
+  height: 74.62px;
+  left: 60.65px;
+  top: 35.9px;
+}
+
 .gambar3 {
   position: absolute;
   width: 60.02px;
   height: 74.62px;
   left: 90.65px;
+  top: 30.9px;
+}
+
+.gamba3 {
+  position: absolute;
+  width: 122.67px;
+  height: 74.62px;
+  left: 50.65px;
   top: 30.9px;
 }

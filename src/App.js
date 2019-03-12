@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Switch, Route } from 'react-router-dom';
+import Kajian from './containers/Kajian/Kajian';
+import Mondok from './containers/Mondok/Mondok';
+import Kitab from './containers/Kitab/Kitab';
+import Home from './Home';
+import Signup from './containers/signup/signup';
 import Navbar from './component/Navbar/Navbar';
-import Jumbo from './component/Jumbo/Jumbo';
-import Body1 from './component/Body1/Body1';
-import Body2 from './component/Body2/Body2';
-import Body3 from './component/Body3/Body3';
-import Body4 from './component/Body4/Body4';
-import { Route, Switch, Link } from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Navbar />
-        <Jumbo />
-        <Body1 />
-        <Body2 />
-        <Body3 />
-        <Body4 />
-
         <Switch>
-          <Route path="/" exact component={Navbar} />
+          <Route exact path="/kajian" component={Kajian} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/mondok" component={Mondok} />
+          <Route exact path="/kitab" component={Kitab} />
+          <Route exact path="/signup" component={Signup} />
         </Switch>
       </div>
     );

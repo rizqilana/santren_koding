@@ -1,6 +1,7 @@
 import './Jumbo.css';
 import { CardText, CardTitle } from 'reactstrap';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Jumbo = () => {
   return (
@@ -10,7 +11,9 @@ const Jumbo = () => {
         Kalo cuma bisa ngoding mungkin udah banyak, tapi ini bisa ngaji juga
         loh. Lulus modok ngodingnya jago, apalagi ngajinya. Yuk ikutan !
       </CardText>
-      <button className="button">Aku Ikut !</button>
+      <Link to="/Signup">
+        <button className="button">Aku Ikut !</button>
+      </Link>
       <img className="img" src={require('./Ilustrasi ngaji + ngoding.svg')} />
     </div>
   );

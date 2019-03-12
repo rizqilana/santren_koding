@@ -1,13 +1,7 @@
 import React from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  Nav,
-  NavItem,
-  NavLink
-} from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -20,7 +14,7 @@ export default class Example extends React.Component {
   }
   toggle() {
     this.setState({
-      isOpen: !this.state.isOpen
+      isOpen: this.state.isOpen
     });
   }
   render() {
@@ -28,24 +22,26 @@ export default class Example extends React.Component {
       <div>
         <Navbar light expand="md" className="Nav">
           <img className="icon" src={require('./Logo Santren + Circle.svg')} />
-          <Navbar className="FontColor">Santren Koding</Navbar>
+          <Link to="/" className="FontColor">
+            Santren Koding
+          </Link>
           <Nav className="ml-auto" navbar>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <NavItem className="icon">
-                <NavLink className="Font1" href="">
+                <Link to="/kajian" className="Font1">
                   Kajian Koding
-                </NavLink>
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink className="Font2" href="">
+                <Link to="Mondok" className="Font2">
                   Mondok Koding
-                </NavLink>
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink className="Font3" href="">
+                <Link to="Kitab" className="Font3">
                   Kitab Koding
-                </NavLink>
+                </Link>
               </NavItem>
             </Collapse>
           </Nav>
