@@ -6,18 +6,19 @@ import Body3 from './component/Body3/Body3';
 import Body4 from './component/Body4/Body4';
 import Footer from './component/Footer/Footer';
 import Carousel from './component/Carousel/Carousel';
+import Navbar from './component/Navbar/Navbar';
 
 export default class Home extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Jumbo />
         <Body1 />
         <Body2 />
         <Body3 />
         <Body4 />
         <Footer />
-        <Carousel />
       </div>
     );
   }

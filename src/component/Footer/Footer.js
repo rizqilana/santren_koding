@@ -13,7 +13,7 @@ const Footer = props => {
         </p>
         <p className="stitle">Santren Koding</p>
         <img className="slogo" src={require('./santrenlogo.png')} />
-        <p className="santren">copyright@santrenkoding</p>
+        <p className="santrens">copyright@santrenkoding</p>
         <button href="https://id-id.facebook.com/">
           <img className="fb" src={require('./faceboo.png')} />
         </button>

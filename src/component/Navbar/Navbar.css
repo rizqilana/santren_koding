@@ -4,7 +4,7 @@
   position: absolute;
   width: 200px;
   height: 30px;
-  left: 750px;
+  left: 700px;
   top: 18px;
   font-style: 'Montserrat';
   font-style: normal;
@@ -18,7 +18,7 @@
   position: absolute;
   width: 200px;
   height: 1px;
-  left: 950px;
+  left: 852px;
   top: 24px;
   font-style: 'Montserrat';
   font-style: normal;
@@ -32,7 +32,7 @@
   position: absolute;
   width: 100px;
   height: 25px;
-  left: 1130px;
+  left: 975px;
   top: 24px;
   font-style: 'Montserrat';
   font-style: normal;
@@ -66,4 +66,27 @@
 
 .Nav {
   height: 75px;
+}
+
+.buttonn {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 1080px;
+  top: 15px;
+  border: 2px solid #6ecd7b;
+  box-sizing: border-box;
+  border-radius: 200px;
+  background-color: white;
+}
+
+.buttonn2 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 1196px;
+  top: 15px;
+  background: #6ecd7b;
+  border-radius: 200px;
+  color: white;
 }

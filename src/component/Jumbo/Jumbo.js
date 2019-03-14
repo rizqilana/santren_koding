@@ -11,9 +11,9 @@ const Jumbo = () => {
         Kalo cuma bisa ngoding mungkin udah banyak, tapi ini bisa ngaji juga
         loh. Lulus modok ngodingnya jago, apalagi ngajinya. Yuk ikutan !
       </CardText>
-      <Link to="/Signup">
-        <button className="button">Aku Ikut !</button>
-      </Link>
+
+      <button className="button">Aku Ikut !</button>
+
       <img className="img" src={require('./Ilustrasi ngaji + ngoding.svg')} />
     </div>
   );

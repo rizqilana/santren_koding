@@ -7,13 +7,14 @@ import Kitab from './containers/Kitab/Kitab';
 import Home from './Home';
 import Signup from './containers/signup/signup';
 import Navbar from './component/Navbar/Navbar';
+import Daftar from './containers/Daftar/Daftar';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Navbar />
         <Switch>
+          <Route exact path="/daftar" component={Daftar} />
           <Route exact path="/kajian" component={Kajian} />
           <Route exact path="/" component={Home} />
           <Route exact path="/mondok" component={Mondok} />

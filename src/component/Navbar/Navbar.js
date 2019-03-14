@@ -1,5 +1,12 @@
 import React from 'react';
-import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  Nav,
+  NavItem,
+  Button
+} from 'reactstrap';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
@@ -30,19 +37,25 @@ export default class Example extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <NavItem className="icon">
                 <Link to="/kajian" className="Font1">
-                  Kajian Koding
+                  Belajar
                 </Link>
               </NavItem>
               <NavItem>
                 <Link to="Mondok" className="Font2">
-                  Mondok Koding
+                  Berbagi
                 </Link>
               </NavItem>
               <NavItem>
                 <Link to="Kitab" className="Font3">
-                  Kitab Koding
+                  Bekerja
                 </Link>
               </NavItem>
+              <Link to="/Signup">
+                <button className="buttonn">Masuk</button>
+              </Link>
+              <Link to="/daftar">
+                <button className="buttonn2">Daftar</button>
+              </Link>
             </Collapse>
           </Nav>
         </Navbar>
