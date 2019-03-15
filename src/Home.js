@@ -7,6 +7,7 @@ import Body4 from './component/Body4/Body4';
 import Footer from './component/Footer/Footer';
 import Carousel from './component/Carousel/Carousel';
 import Navbar from './component/Navbar/Navbar';
+import Program from './component/Program/Program';
 
 export default class Home extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class Home extends Component {
         <Jumbo />
         <Body1 />
         <Body2 />
+        <Program />
         <Body3 />
         <Body4 />
         <Footer />

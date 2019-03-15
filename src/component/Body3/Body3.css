@@ -2,7 +2,7 @@
 .h1 {
   position: absolute;
   left: 540px;
-  top: 2300px;
+  top: 2945px;
   font-style: normal;
   font-weight: 8000px;
   font-size: 50px;
@@ -15,7 +15,7 @@
   width: 225px;
   height: 37px;
   left: 620px;
-  top: 2375px;
+  top: 3005px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -30,7 +30,7 @@
   width: 250px;
   height: 250px;
   left: 230px;
-  top: 2375px;
+  top: 3000px;
   background: #ffffff;
   box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
   border-radius: 10px;
@@ -41,7 +41,7 @@
   width: 250px;
   height: 250px;
   left: 120px;
-  top: 2375px;
+  top: 3000px;
   background: #ffffff;
   box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
   border-radius: 10px;
@@ -52,7 +52,7 @@
   width: 250px;
   height: 250px;
   left: 1px;
-  top: 2375px;
+  top: 3000px;
   background: #ffffff;
   box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
   border-radius: 10px;

@@ -14,12 +14,10 @@ const Footer = props => {
         <p className="stitle">Santren Koding</p>
         <img className="slogo" src={require('./santrenlogo.png')} />
         <p className="santrens">copyright@santrenkoding</p>
-        <button href="https://id-id.facebook.com/">
-          <img className="fb" src={require('./faceboo.png')} />
-        </button>
-        <button>
-          <img className="tele" src={require('./tele.png')} />
-        </button>
+
+        <img className="fb" src={require('./faceboo.png')} />
+
+        <img className="tele" src={require('./tele.png')} />
       </div>
       <div className="display-3">
         <img className="imgg" src={require('./Group 2.png')} />

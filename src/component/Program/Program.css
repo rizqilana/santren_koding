@@ -1,0 +1,147 @@
+.program {
+  position: absolute;
+  width: 404px;
+  height: 61px;
+  left: 466px;
+  top: 2282px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  color: #615e5e;
+}
+
+.car {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 293px;
+  top: 2383px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+}
+
+.carr1 {
+  position: absolute;
+  left: 20%;
+  right: 54.12%;
+  top: 20%;
+  bottom: 55.33%;
+}
+
+.car2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 493px;
+  top: 2383px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.carr2 {
+  position: absolute;
+  left: 20%;
+  right: 54.12%;
+  top: 20%;
+  bottom: 55.33%;
+}
+
+.car3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 693px;
+  top: 2383px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.carr3 {
+  position: absolute;
+  width: 75px;
+  left: 22%;
+  right: 54.12%;
+  top: 20%;
+  bottom: 55.33%;
+}
+
+.car4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 893px;
+  top: 2383px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.carr4 {
+  position: absolute;
+  left: 20%;
+  right: 54.12%;
+  top: 20%;
+  bottom: 55.33%;
+}
+
+.car5 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 394px;
+  top: 2583px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.carr5 {
+  position: absolute;
+  left: 20%;
+  right: 54.12%;
+  top: 20%;
+  bottom: 55.33%;
+}
+
+.car6 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 593px;
+  top: 2583px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.carr6 {
+  position: absolute;
+  left: 20%;
+  right: 54.12%;
+  top: 20%;
+  bottom: 55.33%;
+}
+
+.car7 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 794px;
+  top: 2583px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.carr7 {
+  position: absolute;
+  left: 20%;
+  right: 54.12%;
+  top: 20%;
+  bottom: 55.33%;
+}

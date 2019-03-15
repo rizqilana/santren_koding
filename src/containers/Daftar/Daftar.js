@@ -9,10 +9,10 @@ export default class Daftar extends Component {
         <card className="cardss2">
           <h1 className="koding">Santren Koding</h1>
           <Link to="signup">
-            <button className="masukkk">Masuk</button>
+            <button className="masukk2">Masuk</button>
           </Link>
           <Link to="daftar">
-            <button className="daftar">Daftar</button>
+            <button className="daftar2">Daftar</button>
           </Link>
           <h1 className="namaa">Nama Lengkap</h1>
           <input
