@@ -1,29 +1,9 @@
 import React from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  Nav,
-  NavItem,
-  Button
-} from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, Nav, Button } from 'reactstrap';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
 export default class Example extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.toggle = this.toggle.bind(this);
-    this.state = {
-      isOpen: false
-    };
-  }
-  toggle() {
-    this.setState({
-      isOpen: this.state.isOpen
-    });
-  }
   render() {
     return (
       <div>
@@ -32,36 +12,28 @@ export default class Example extends React.Component {
           <Link to="/" className="FontColor">
             Santren Koding
           </Link>
-          <Nav className="ml-auto" navbar>
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <NavItem className="icon">
-                <Link to="/kajian" className="Font1">
-                  Belajar
-                </Link>
-              </NavItem>
-              <NavItem>
-                <Link to="Mondok" className="Font2">
-                  Berbagi
-                </Link>
-              </NavItem>
-              <NavItem>
-                <Link to="Kitab" className="Font3">
-                  Bekerja
-                </Link>
-              </NavItem>
-              <Link to="/Signup">
-                <button outline color="success" className="buttonn">
-                  Masuk
-                </button>
-              </Link>
-              <Link to="/daftar">
-                <button color="success" className="buttonn2">
-                  Daftar
-                </button>
-              </Link>
-            </Collapse>
-          </Nav>
+
+          <Link to="/kajian" className="Font1">
+            Belajar
+          </Link>
+
+          <Link to="Mondok" className="Font2">
+            Berbagi
+          </Link>
+
+          <Link to="Kitab" className="Font3">
+            Bekerja
+          </Link>
+          <Link to="/Signup">
+            <button outline color="success" className="buttonn">
+              Masuk
+            </button>
+          </Link>
+          <Link to="/daftar">
+            <button color="success" className="buttonn2">
+              Daftar
+            </button>
+          </Link>
         </Navbar>
       </div>
     );

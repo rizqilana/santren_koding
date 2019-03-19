@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:800|Tangerine:700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Tangerine');
 
-.titLe.card-title {
+.titLe {
   position: absolute;
   width: 500px;
   height: 100px;
@@ -16,7 +16,7 @@
   color: #615e5e;
 }
 
-.subtitle.card-text {
+.subtitle {
   position: absolute;
   width: 450px;
   height: 98px;
@@ -47,10 +47,23 @@
   color: #ffffff;
   border: 0;
 }
+.button:hover {
+  color: #6ecd7b;
+  background: #ffffff;
+  border: 2px solid #6ecd7b;
+  box-shadow: #ffffff;
+}
 
 .img {
   position: absolute;
-  width: 855px;
+  width: 850px;
   left: 500px;
-  top: 50px;
+  top: 40px;
+}
+
+@media only screen and (max-width: 584px) {
+}
+@media only screen and (max-width: 495px) {
+}
+@media only screen and (max-width: 379px) {
 }

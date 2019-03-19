@@ -4,8 +4,8 @@
   position: absolute;
   width: 200px;
   height: 30px;
-  left: 700px;
-  top: 18px;
+  left: 732px;
+  top: 23px;
   font-style: 'Montserrat';
   font-style: normal;
   font-weight: 550;
@@ -95,10 +95,26 @@
   background: #6ecd7b;
   border-radius: 5px;
   color: white;
+  border: white;
 }
 
 .buttonn2:hover {
   background: white;
   color: #6ecd7b;
   border: 2px solid #6ecd7b;
+}
+
+@media only screen and (max-width: 993px) {
+}
+@media only screen and (max-width: 868px) {
+}
+@media only screen and (max-width: 808px) {
+}
+@media only screen and (max-width: 679px) {
+}
+@media only screen and (max-width: 584px) {
+}
+@media only screen and (max-width: 495px) {
+}
+@media only screen and (max-width: 379px) {
 }

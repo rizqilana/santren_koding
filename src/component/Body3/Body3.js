@@ -18,11 +18,13 @@ class Body3 extends Component {
             </CardBody>
           </Col>
           <Col>
-            <CardBody className="Caard2">
-              <CardTitle className="ctitle2">Tidak mendekati ZINA</CardTitle>
-              <img className="gamba2" src={require('./Ellipse (2).png')} />
-              <img className="gambar2" src={require('./Group 3.png')} />
-            </CardBody>
+            <center>
+              <CardBody className="Caard2">
+                <CardTitle className="ctitle2">Tidak mendekati ZINA</CardTitle>
+                <img className="gamba2" src={require('./Ellipse (2).png')} />
+                <img className="gambar2" src={require('./Group 3.png')} />
+              </CardBody>
+            </center>
           </Col>
           <Col>
             <CardBody className="Caard3">

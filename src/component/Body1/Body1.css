@@ -6,7 +6,6 @@
   left: 16%;
   right: 15.19%;
   top: 1010px;
-  bottom: 75.12%;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: normal;
@@ -31,4 +30,20 @@
   height: 89px;
   left: 1100px;
   top: 1114px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Titlele {
+    font-size: 30px;
+    width: 940px;
+    left: 210px;
+  }
+}
+@media only screen and (max-width: 868px) {
+}
+@media only screen and (max-width: 808px) {
+}
+@media only screen and (max-width: 679px) {
+}
+@media only screen and (max-width: 584px) {
 }
