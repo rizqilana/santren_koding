@@ -15,7 +15,12 @@ export default class signup extends Component {
             <button className="daftar">Daftar</button>
           </Link>
           <h1 className="email">Email</h1>
-          <input type="email" placeholder="masukkan email" className="inputt" />
+          <input
+            type="text"
+            placeholder="masukkan email"
+            className="inputt"
+            name="email"
+          />
           <h1 className="sandi">Kata Sandi</h1>
           <input
             type="password"

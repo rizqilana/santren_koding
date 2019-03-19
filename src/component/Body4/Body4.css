@@ -2,10 +2,10 @@
 
 .gambarr {
   position: absolute;
-  width: 1350.09px;
-  height: 900.47px;
-  left: 1px;
-  top: 3500px;
+  width: 1164.69px;
+  height: 552.67px;
+  left: 100px;
+  top: 3630px;
 }
 
 .kegiatan {
@@ -13,7 +13,7 @@
   width: 561px;
   height: 54px;
   left: 388px;
-  top: 3690px;
+  top: 3675px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -21,18 +21,4 @@
   font-size: 50px;
   letter-spacing: 0.05em;
   color: #615e5e;
-}
-
-.manfaat {
-  position: absolute;
-  width: 517px;
-  height: 61px;
-  left: 409px;
-  top: 4500px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  font-size: 50px;
-  letter-spacing: 0.05em;
 }

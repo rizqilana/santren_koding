@@ -25,10 +25,22 @@
 
 .carr1 {
   position: absolute;
-  left: 20%;
+  left: 24%;
   right: 54.12%;
   top: 20%;
   bottom: 55.33%;
+}
+
+.H1 {
+  width: 59px;
+  height: 35px;
+  left: 340px;
+  top: 20000px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #615e5e;
 }
 
 .car2 {
@@ -48,6 +60,21 @@
   right: 54.12%;
   top: 20%;
   bottom: 55.33%;
+}
+
+.H2 {
+  width: 128px;
+  height: 36px;
+  left: 504px;
+  top: 2513px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+
+  color: #615e5e;
 }
 
 .car3 {
@@ -70,6 +97,22 @@
   bottom: 55.33%;
 }
 
+.H3 {
+  width: 52px;
+  height: 35px;
+  left: 744px;
+  top: 2513px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+
+  color: #615e5e;
+}
+
 .car4 {
   position: absolute;
   width: 150px;
@@ -87,6 +130,22 @@
   right: 54.12%;
   top: 20%;
   bottom: 55.33%;
+}
+
+.H4 {
+  width: 52px;
+  height: 35px;
+  left: 942px;
+  top: 2513px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+
+  color: #615e5e;
 }
 
 .car5 {
@@ -108,6 +167,22 @@
   bottom: 55.33%;
 }
 
+.H5 {
+  width: 57px;
+  height: 35px;
+  left: 441px;
+  top: 2713px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+
+  color: #615e5e;
+}
+
 .car6 {
   position: absolute;
   width: 150px;
@@ -127,6 +202,22 @@
   bottom: 55.33%;
 }
 
+.H6 {
+  width: 54px;
+  height: 35px;
+  left: 641px;
+  top: 2713px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+
+  color: #615e5e;
+}
+
 .car7 {
   position: absolute;
   width: 150px;
@@ -144,4 +235,20 @@
   right: 54.12%;
   top: 20%;
   bottom: 55.33%;
+}
+
+.H7 {
+  width: 60px;
+  height: 35px;
+  left: 839px;
+  top: 2713px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+
+  color: #615e5e;
 }

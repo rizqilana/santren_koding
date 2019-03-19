@@ -76,8 +76,14 @@
   top: 15px;
   border: 2px solid #6ecd7b;
   box-sizing: border-box;
-  border-radius: 200px;
+  border-radius: 5px;
   background-color: white;
+  color: #6ecd7b;
+}
+
+.buttonn:hover {
+  background: #6ecd7b;
+  color: white;
 }
 
 .buttonn2 {
@@ -87,6 +93,12 @@
   left: 1196px;
   top: 15px;
   background: #6ecd7b;
-  border-radius: 200px;
+  border-radius: 5px;
   color: white;
+}
+
+.buttonn2:hover {
+  background: white;
+  color: #6ecd7b;
+  border: 2px solid #6ecd7b;
 }

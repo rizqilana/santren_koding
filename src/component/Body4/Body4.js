@@ -6,11 +6,10 @@ class Body4 extends Component {
   render() {
     return (
       <div>
+        <img className="gambarr" src={require('./Vector.png')} />
         <center>
           <h1 className="kegiatan">Foto Kegiatan Kami</h1>
-          <h1 className="manfaat">Penerima Manfaat</h1>
         </center>
-        <img className="gambarr" src={require('./Vector.png')} />
       </div>
     );
   }

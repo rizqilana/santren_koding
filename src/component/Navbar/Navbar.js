@@ -51,10 +51,14 @@ export default class Example extends React.Component {
                 </Link>
               </NavItem>
               <Link to="/Signup">
-              <Button outline color="success" className="buttonn">Masuk</Button>
+                <button outline color="success" className="buttonn">
+                  Masuk
+                </button>
               </Link>
               <Link to="/daftar">
-              <Button color="success" className="buttonn2">Daftar</Button>
+                <button color="success" className="buttonn2">
+                  Daftar
+                </button>
               </Link>
             </Collapse>
           </Nav>
