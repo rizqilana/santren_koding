@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300|Tangerine:700');
+
+.Titlele {
+  position: absolute;
+  width: 940px;
+  left: 16%;
+  right: 15.19%;
+  top: 1010px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 40px;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #615e5e;
+}
+
+.Img {
+  position: absolute;
+  width: 116px;
+  height: 89px;
+  left: 110px;
+  top: 943px;
+}
+
+.Img2 {
+  position: absolute;
+  width: 116px;
+  height: 89px;
+  left: 1100px;
+  top: 1114px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Titlele {
+    font-size: 30px;
+    width: 940px;
+    left: 210px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+}
+@media only screen and (max-width: 808px) {
+}
+@media only screen and (max-width: 679px) {
+}
+@media only screen and (max-width: 584px) {
+}
