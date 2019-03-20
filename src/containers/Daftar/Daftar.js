@@ -7,7 +7,7 @@ export default class Daftar extends Component {
     return (
       <div>
         <card className="cardss2">
-          <h1 className="koding">Santren Koding</h1>
+          <h1 className="kodingg">Santren Koding</h1>
           <Link to="signup">
             <button className="masukk2">Masuk</button>
           </Link>
@@ -23,7 +23,8 @@ export default class Daftar extends Component {
           <h1 className="emaill">Email</h1>
           <input
             className="emaill2"
-            type="email"
+            type="text"
+            name="email"
             placeholder="Masukkan email"
           />
           <h1 className="katas">Kata Sandi</h1>

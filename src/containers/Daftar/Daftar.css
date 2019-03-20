@@ -1,9 +1,9 @@
-.koding {
+.kodingg {
   position: absolute;
   width: 246px;
   height: 37px;
   top: 25px;
-  left: 90px;
+  left: 110px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -105,7 +105,7 @@
 
 .cardss2 {
   position: absolute;
-  width: 440px;
+  width: 450px;
   height: 635px;
   left: 448px;
   top: 46px;
@@ -134,13 +134,30 @@
   height: 50px;
   left: 25px;
   top: 190px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
   background: #ffffff;
   border: 1px solid #6ecd7b;
   box-sizing: border-box;
   border-radius: 5px;
 }
-
+.email {
+  position: absolute;
+  width: 52px;
+  height: 30px;
+  left: 25px;
+  top: 135px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 25px;
+  color: #615e5e;
+}
 .emaill {
   position: absolute;
   width: 52px;
@@ -161,6 +178,12 @@
   height: 50px;
   left: 25px;
   top: 285px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
   background: #ffffff;
   border: 1px solid #6ecd7b;
   box-sizing: border-box;
@@ -187,6 +210,12 @@
   height: 50px;
   left: 25px;
   top: 385px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
   background: #ffffff;
   border: 1px solid #6ecd7b;
   box-sizing: border-box;
@@ -213,6 +242,12 @@
   height: 50px;
   left: 25px;
   top: 485px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
   background: #ffffff;
   border: 1px solid #6ecd7b;
   box-sizing: border-box;
@@ -233,10 +268,27 @@
   line-height: normal;
   font-size: 20px;
   color: #ffffff;
+  border: #6ecd7b;
+}
+
+.daftarr:hover {
+  color: #6ecd7b;
+  background: #ffffff;
+  border: 2px solid #6ecd7b;
 }
 
 @media only screen and (max-width: 1024px) {
   .cardss2 {
     left: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cardss2 {
+    left: 165px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .cardss2 {
+    left: 20px;
   }
 }

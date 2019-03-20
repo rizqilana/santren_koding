@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
 .cardss {
   position: absolute;
   width: 440px;
@@ -56,22 +54,7 @@
   font-weight: bold;
   line-height: normal;
   font-size: 20px;
-
   color: #ffffff;
-}
-
-.email {
-  position: absolute;
-  width: 52px;
-  height: 30px;
-  left: 25px;
-  top: 135px;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 25px;
-  color: #615e5e;
 }
 
 .sandi {
@@ -93,7 +76,7 @@
   width: 246px;
   height: 37px;
   top: 30px;
-  left: 80px;
+  left: 90px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
