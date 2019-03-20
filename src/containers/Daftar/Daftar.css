@@ -1,0 +1,294 @@
+.kodingg {
+  position: absolute;
+  width: 246px;
+  height: 37px;
+  top: 25px;
+  left: 110px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 30px;
+  color: #6ecd7b;
+}
+
+.masukk2 {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 16px;
+  top: 80px;
+  background: #ffffff;
+  border: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  color: #615e5e;
+}
+
+.daftar2 {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 217px;
+  top: 80px;
+  background: #ffffff;
+  border: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  border-bottom: 3px solid #6ecd7b;
+  color: #615e5e;
+}
+
+.sandi {
+  position: absolute;
+  width: 400px;
+  height: 22px;
+  left: 25px;
+  top: 230px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 25px;
+  color: #615e5e;
+}
+
+.email {
+  position: absolute;
+  width: 52px;
+  height: 30px;
+  left: 25px;
+  top: 135px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 25px;
+  color: #615e5e;
+}
+
+.masukk {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 20px;
+  top: 350px;
+  background: #6ecd7b;
+  border-radius: 5px;
+  position: absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+
+.inputt {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 20px;
+  top: 170px;
+
+  border: 1px solid #6ecd7b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.cardss2 {
+  position: absolute;
+  width: 450px;
+  height: 635px;
+  left: 448px;
+  top: 46px;
+  background: #ffffff;
+  box-shadow: 0px 0px 75px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.namaa {
+  position: absolute;
+  width: 140px;
+  height: 22px;
+  left: 25px;
+  top: 160px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  color: #615e5e;
+}
+
+.namaa2 {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 25px;
+  top: 190px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
+  background: #ffffff;
+  border: 1px solid #6ecd7b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.email {
+  position: absolute;
+  width: 52px;
+  height: 30px;
+  left: 25px;
+  top: 135px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 25px;
+  color: #615e5e;
+}
+.emaill {
+  position: absolute;
+  width: 52px;
+  height: 22px;
+  left: 25px;
+  top: 252px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  color: #615e5e;
+}
+
+.emaill2 {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 25px;
+  top: 285px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
+  background: #ffffff;
+  border: 1px solid #6ecd7b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.katas {
+  position: absolute;
+  width: 97px;
+  height: 22px;
+  left: 25px;
+  top: 349px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  color: #615e5e;
+}
+
+.katas2 {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 25px;
+  top: 385px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
+  background: #ffffff;
+  border: 1px solid #6ecd7b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.katass {
+  position: absolute;
+  width: 250px;
+  height: 22px;
+  left: 25px;
+  top: 450px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  color: #615e5e;
+}
+
+.katasss {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 25px;
+  top: 485px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
+  background: #ffffff;
+  border: 1px solid #6ecd7b;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.daftarr {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 20px;
+  top: 560px;
+  background: #6ecd7b;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  color: #ffffff;
+  border: #6ecd7b;
+}
+
+.daftarr:hover {
+  color: #6ecd7b;
+  background: #ffffff;
+  border: 2px solid #6ecd7b;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cardss2 {
+    left: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cardss2 {
+    left: 165px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .cardss2 {
+    left: 20px;
+  }
+}
