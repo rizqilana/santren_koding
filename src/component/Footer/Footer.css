@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
+.berkah {
+  position: absolute;
+  width: 706px;
+  height: 74px;
+  left: 315px;
+  top: 90%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: normal;
+
+  color: #ffffff;
+}
+
+.display-3 {
+  position: absolute;
+  width: 1350px;
+  height: 620px;
+  left: 0px;
+  top: 4460px;
+  background: linear-gradient(359.7deg, #3eadcf 4.93%, #b7e6bd 99.41%);
+}
+
+.thn {
+  position: absolute;
+  width: 89px;
+  height: 49px;
+  left: 240px;
+  top: 200px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.thn2 {
+  position: absolute;
+  width: 130px;
+  height: 61px;
+  left: 617px;
+  top: 200px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.thn3 {
+  position: absolute;
+  width: 129px;
+  height: 61px;
+  left: 1000px;
+  top: 200px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.ftitle {
+  position: absolute;
+  width: 287px;
+  height: 147px;
+  left: 140px;
+  top: 270px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ftitle2 {
+  position: absolute;
+  width: 295px;
+  left: 530px;
+  top: 270px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ftitle3 {
+  position: absolute;
+  width: 280px;
+  height: 147px;
+  left: 900px;
+  top: 270px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer {
+  position: absolute;
+  width: 1350px;
+  height: 500px;
+  left: 0px;
+  top: 5080px;
+  background: #3eadcf;
+}
+
+.imgg {
+  position: absolute;
+  left: 1px;
+  right: 77.28%;
+  top: 85.44%;
+  bottom: 5.87%;
+}
+
+.imgg2 {
+  position: absolute;
+  width: 77.92px;
+  height: 219.51px;
+  left: 1px;
+  top: 480.39px;
+}
+
+.imgg3 {
+  position: absolute;
+  left: 85.8%;
+  right: -5.08%;
+  top: 90.84%;
+  bottom: 2.3%;
+}
+
+.imgg4 {
+  position: absolute;
+  left: 87.24%;
+  right: -7%;
+  top: 70.81%;
+  bottom: 5.43%;
+}
+
+.kontak {
+  position: absolute;
+  width: 76px;
+  height: 25px;
+  left: 140px;
+  top: 200px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.nomor {
+  position: absolute;
+  width: 300px;
+  height: 44px;
+  left: 140px;
+  top: 230px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.kantor {
+  position: absolute;
+  width: 137px;
+  height: 25px;
+  left: 435px;
+  top: 200px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.manfaat {
+  position: absolute;
+  width: 517px;
+  height: 61px;
+  left: 409px;
+  top: 80px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.alamat {
+  position: absolute;
+  width: 224px;
+  height: 44px;
+  left: 435px;
+  top: 230px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.slogo {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 140px;
+  top: 425px;
+}
+
+.stitle {
+  position: absolute;
+  width: 104px;
+  height: 16px;
+  left: 180px;
+  top: 433px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.santrens {
+  position: absolute;
+  width: 157px;
+  height: 18px;
+  left: 590px;
+  top: 432px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.fb {
+  position: absolute;
+  left: 83.53%;
+  right: 14.22%;
+  top: 85%;
+  bottom: 0.82%;
+}
+
+.tele {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1175px;
+  top: 425px;
+}

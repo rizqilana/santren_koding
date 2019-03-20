@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Tangerine:700');
+
+.Font1 {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 732px;
+  top: 23px;
+  font-style: 'Montserrat';
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  font-size: 17px;
+  color: #615e5e;
+}
+
+.Font2 {
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  left: 852px;
+  top: 24px;
+  font-style: 'Montserrat';
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  font-size: 17px;
+  color: #615e5e;
+}
+
+.Font3 {
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  left: 975px;
+  top: 24px;
+  font-style: 'Montserrat';
+  font-style: normal;
+  font-weight: 550;
+  line-height: normal;
+  font-size: 17px;
+  color: #615e5e;
+}
+
+.FontColor {
+  position: absolute;
+  width: 280px;
+  height: 25px;
+  left: 120px;
+  top: 20px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 30px;
+  color: #6ecd7b;
+}
+
+.icon {
+  position: absolute;
+  left: 2.99%;
+  right: 92.14%;
+  top: 5px;
+  bottom: 98.05%;
+}
+
+.Nav {
+  height: 75px;
+}
+
+.buttonn {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 1080px;
+  top: 15px;
+  border: 2px solid #6ecd7b;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: white;
+  color: #6ecd7b;
+}
+
+.buttonn:hover {
+  background: #6ecd7b;
+  color: white;
+}
+
+.buttonn2 {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  left: 1196px;
+  top: 15px;
+  background: #6ecd7b;
+  border-radius: 5px;
+  color: white;
+  border: white;
+}
+
+.buttonn2:hover {
+  background: white;
+  color: #6ecd7b;
+  border: 2px solid #6ecd7b;
+}
+
+@media only screen and (max-width: 993px) {
+}
+@media only screen and (max-width: 868px) {
+}
+@media only screen and (max-width: 808px) {
+}
+@media only screen and (max-width: 679px) {
+}
+@media only screen and (max-width: 584px) {
+}
+@media only screen and (max-width: 495px) {
+}
+@media only screen and (max-width: 379px) {
+}

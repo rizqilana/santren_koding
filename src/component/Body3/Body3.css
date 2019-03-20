@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+.h1 {
+  position: absolute;
+  left: 540px;
+  top: 2945px;
+  font-style: normal;
+  font-weight: 8000px;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+  color: #615e5e;
+}
+
+.h5 {
+  position: absolute;
+  width: 225px;
+  height: 37px;
+  left: 620px;
+  top: 3005px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 35px;
+  letter-spacing: 0.05em;
+  color: #615e5e;
+}
+
+.Caard1 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 265px;
+  top: 3000px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.Caard2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 120px;
+  top: 3000px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.Caard3 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: -25px;
+  top: 3000px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(28, 58, 67, 0.07);
+  border-radius: 10px;
+}
+
+.ctitle {
+  position: absolute;
+  width: 130px;
+  height: 85px;
+  left: 60px;
+  top: 115px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 23px;
+  text-align: center;
+  color: #615e5e;
+}
+
+.ctitle2 {
+  position: absolute;
+  width: 128px;
+  height: 85px;
+  left: 60px;
+  top: 115px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 23px;
+  text-align: center;
+  color: #615e5e;
+}
+
+.ctitle3 {
+  position: absolute;
+  width: 140px;
+  height: 111px;
+  left: 55px;
+  top: 115px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 23px;
+  text-align: center;
+  color: #615e5e;
+}
+
+.gambar {
+  position: absolute;
+  width: 122.02px;
+  height: 74.62px;
+  left: 63.65px;
+  top: 35.9px;
+}
+
+.gamba {
+  position: absolute;
+  width: 122.02px;
+  height: 74.62px;
+  left: 63.65px;
+  top: 35.9px;
+}
+
+.gambar2 {
+  position: absolute;
+  width: 122.02px;
+  height: 74.62px;
+  left: 60.65px;
+  top: 35.9px;
+}
+
+.gamba2 {
+  position: absolute;
+  width: 122.02px;
+  height: 74.62px;
+  left: 60.65px;
+  top: 35.9px;
+}
+
+.gambar3 {
+  position: absolute;
+  width: 60.02px;
+  height: 74.62px;
+  left: 90.65px;
+  top: 30.9px;
+}
+
+.gamba3 {
+  position: absolute;
+  width: 122.67px;
+  height: 74.62px;
+  left: 50.65px;
+  top: 30.9px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .Caard2 {
+    left: 150px;
+  }
+  .Caard3 {
+    left: 85px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Caard2 {
+    left: 170px;
+  }
+  .Caard3 {
+    left: 105px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .Caard2 {
+    left: 200px;
+  }
+  .Caard3 {
+    left: 170px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Caard1 {
+    left: 260px;
+  }
+  .Caard2 {
+    left: 250px;
+  }
+  .Caard3 {
+    left: 230px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .Caard1 {
+    left: 273px;
+  }
+  .Caard2 {
+    left: 280px;
+  }
+  .Caard3 {
+    left: 280px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .h1 {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .Caard1 {
+    left: 283px;
+  }
+  .Caard2 {
+    left: 320px;
+  }
+  .Caard3 {
+    left: 350px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .Caard1 {
+    left: 280px;
+  }
+  .Caard2 {
+    left: 350px;
+  }
+  .Caard3 {
+    left: 418px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Caard1 {
+    left: 285px;
+  }
+  .Caard2 {
+    left: 385px;
+  }
+  .Caard3 {
+    left: 480px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Caard1 {
+    left: 285px;
+  }
+  .Caard2 {
+    left: 415px;
+  }
+  .Caard3 {
+    left: 543px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .Caard1 {
+    left: 280px;
+  }
+  .Caard2 {
+    left: 440px;
+  }
+  .Caard3 {
+    left: 600px;
+  }
+}
+@media only screen and (max-width: 374px) {
+  .Caard1 {
+    left: 280px;
+  }
+  .Caard2 {
+    left: 460px;
+  }
+  .Caard3 {
+    left: 640px;
+  }
+}
