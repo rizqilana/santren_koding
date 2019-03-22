@@ -17,13 +17,18 @@
   top: 220px;
 }
 
-.inputt {
+.iinputt {
   position: absolute;
   width: 400px;
   height: 50px;
   left: 20px;
   top: 170px;
-
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
   border: 1px solid #6ecd7b;
   box-sizing: border-box;
   border-radius: 5px;
@@ -35,6 +40,12 @@
   height: 50px;
   left: 20px;
   top: 268px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: normal;
+  color: #8e9194;
   border: 1px solid #6ecd7b;
   box-sizing: border-box;
   border-radius: 5px;
@@ -55,19 +66,39 @@
   line-height: normal;
   font-size: 20px;
   color: #ffffff;
+  border: #ffffff;
+}
+.masukk:hover {
+  color: #6ecd7b;
+  background: #ffffff;
+  border: 2px solid #6ecd7b;
 }
 
-.sandi {
+.eemail {
+  position: absolute;
+  width: 52px;
+  height: 30px;
+  left: 20px;
+  top: 143px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: normal;
+  color: #615e5e;
+}
+
+.sanndi {
   position: absolute;
   width: 400px;
   height: 22px;
-  left: 25px;
-  top: 230px;
-  font-family: 'Roboto', sans-serif;
+  left: 20px;
+  top: 240px;
+  font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
+  font-size: 18px;
   line-height: normal;
-  font-size: 25px;
   color: #615e5e;
 }
 
@@ -112,9 +143,70 @@
   border: #ffffff;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
-  line-height: normal;
+  font-weight: normal;
   font-size: 20px;
-
+  line-height: normal;
   color: #615e5e;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cardss2 {
+    left: 375px;
+  }
+}
+@media only screen and (max-width: 1202px) {
+  .cardss {
+    left: 378px;
+  }
+}
+@media only screen and (max-width: 1042px) {
+  .cardss {
+    left: 300px;
+  }
+}
+@media only screen and (max-width: 1026px) {
+  .cardss {
+    left: 290px;
+  }
+}
+@media only screen and (max-width: 846px) {
+  .cardss {
+    left: 199px;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .cardss {
+    left: 170px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cardss {
+    left: 165px;
+  }
+}
+@media only screen and (max-width: 632px) {
+  .cardss {
+    left: 93px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .cardss {
+    left: 86px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .cardss {
+    width: 400px;
+    height: 422px;
+    left: 40px;
+    top: 35px;
+  }
+  .iinputt {
+    width: 360px;
+    height: 50px;
+  }
+  .inputt2 {
+    width: 360px;
+    height: 50px;
+  }
 }

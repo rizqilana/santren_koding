@@ -22,9 +22,9 @@
   border: #ffffff;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: bold;
-  line-height: normal;
+  font-weight: normal;
   font-size: 20px;
+  line-height: normal;
   color: #615e5e;
 }
 
@@ -145,19 +145,7 @@
   box-sizing: border-box;
   border-radius: 5px;
 }
-.email {
-  position: absolute;
-  width: 52px;
-  height: 30px;
-  left: 25px;
-  top: 135px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 25px;
-  color: #615e5e;
-}
+
 .emaill {
   position: absolute;
   width: 52px;
@@ -277,9 +265,34 @@
   border: 2px solid #6ecd7b;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
   .cardss2 {
-    left: 100px;
+    left: 375px;
+  }
+}
+@media only screen and (max-width: 1202px) {
+  .cardss2 {
+    left: 378px;
+  }
+}
+@media only screen and (max-width: 1042px) {
+  .cardss2 {
+    left: 300px;
+  }
+}
+@media only screen and (max-width: 1026px) {
+  .cardss2 {
+    left: 290px;
+  }
+}
+@media only screen and (max-width: 846px) {
+  .cardss2 {
+    left: 199px;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .cardss2 {
+    left: 170px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -287,8 +300,13 @@
     left: 165px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 632px) {
   .cardss2 {
-    left: 20px;
+    left: 93px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .cardss2 {
+    left: 86px;
   }
 }

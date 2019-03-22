@@ -7,7 +7,7 @@ import Body4 from './component/Body4/Body4';
 import Footer from './component/Footer/Footer';
 import Carousel from './component/Carousel/Carousel';
 import Navbar from './component/Navbar/Navbar';
-import Program from './component/Program/Program';
+import Program from './component/Program/program';
 
 export default class Home extends Component {
   render() {
